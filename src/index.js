@@ -14,7 +14,16 @@ const currtime = new Date().getTime();
 const image1 = "https://source.unsplash.com/daily";
 const image2 = "https://source.unsplash.com/WLUHO9A_xik/600x900";
 const link = "http://prashantsagar.tech/";
+const rans = {
+    color: '#00000',
+    textAlign: "center",
+    textTransform: "capitalize",
+    justifyContent: "center",
+    fontSize: "x-large",
+    fontFamily: "'East Sea Dokdo', cursive"
 
+
+}
 
 
 
@@ -57,6 +66,15 @@ ReactDOM.render(<>
 </div>
 {/* css styleing in react */}
 <h1 className="name">Hello, This is prashant sagar here!</h1>
+
+{/* inline css in react */}
+
+<div style={rans}>
+    <p>in line text in css for that you have to write css uned a variable inside const as a key value and value are writen as string, And all are in form of camel_case. </p>
+</div>
+
+
+
 
 </>,
     document.getElementById('root'));
