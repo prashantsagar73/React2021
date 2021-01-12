@@ -5,76 +5,38 @@ import "./index.css";
 // var React = require('react');
 // var ReactDOM = require('react-dom');
 
-
-const fname ="prashant"
-const laname = "sagar"
-const name ="Happy"
-const currDate = new Date();
-const currtime = new Date().getTime();
+let currDate = new Date();
+currDate = currDate.getHours();
+let greetings = '';
 const image1 = "https://source.unsplash.com/daily";
 const image2 = "https://source.unsplash.com/WLUHO9A_xik/600x900";
 const link = "http://prashantsagar.tech/";
 const rans = {
-    color: '#00000',
-    textAlign: "center",
-    textTransform: "capitalize",
-    justifyContent: "center",
-    fontSize: "x-large",
-    fontFamily: "'East Sea Dokdo', cursive"
-
+    backgroundColor: "rgb(127, 255, 212)",
 
 }
+const ss ={ };
+
+if (currDate >= 1 && currDate < 12){
+    greetings="Good Morining"
+    ss.color = 'green';
+}else if( currDate >=12 && currDate <19) {
+    greetings ="Good afternoon"
+    ss.color = 'orange';
+
+}else if(currDate >= 19 && currDate <24 ){
+    greetings="Good night"
+    ss.color = 'black';
 
 
+}else{
+    greetings="Please set your time first"
+}
 
 ReactDOM.render(<>
-<h1 className="name">Hello, This is prashant sagar here!</h1>
-<p className="name">Here is some topic that i want to explore this year</p>
-<ul className="name">
-    <li>Djago</li>
-    <li>React</li>
-    <li>AWS</li>
-    <li>GITA</li>
-    <li>Stock Market</li>
-
-</ul>
-
-
-{/* use js in React */}
-<h3 className="name"> by using java-script {fname + " "+ laname} </h3>
-
-
-{/* by using temlate literals */}
-<h3 className="name">  {`By using temlate literals ${fname} ${laname}`} </h3>
-
-<h1 className="name"> TASK  NO-2 </h1>
 <div className="name">
-{`My nick name is ${name} \n current date is = ${currDate}`},
-{`current time is = ${currtime}`} 
-
+    <h1>Hello sir,<span style={ss}>{greetings}</span></h1>
 </div>
-{/* set on images */}
-<div className="div_img">
-<h3 className="name" contentEditable= "true">  {`By using temlate literals ${fname} ${laname}`} </h3>
-
-<img src = {image1} alt="Random image"/>
-
-{/* set Random link on any image */}
-<a href={link} target="_prashant">
-<img src = {image2} alt="Random image"/>
-</a>
-</div>
-{/* css styleing in react */}
-<h1 className="name">Hello, This is prashant sagar here!</h1>
-
-{/* inline css in react */}
-
-<div style={rans}>
-    <p>in line text in css for that you have to write css uned a variable inside const as a key value and value are writen as string, And all are in form of camel_case. </p>
-</div>
-
-
-
 
 </>,
     document.getElementById('root'));
