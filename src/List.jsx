@@ -1,9 +1,12 @@
 const name = "prashant sagar";
 const work = "developer";
 
+function Passion() {
+    return "coder";
+}
 
 export default name;
-export {work};
+export {work, Passion};
 
 
 
