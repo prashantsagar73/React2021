@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "./Heading";
 import List from "./List";
 
-function App() {
+function Aee() {
     return (
         <>
             <Heading />
@@ -10,4 +10,4 @@ function App() {
         </>
     );
 }
-export default App;
+export default Aee;
