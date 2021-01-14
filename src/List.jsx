@@ -1,10 +1,7 @@
-import React from "react";
-function List(){
-    return <ul>
-    <li>mai hu mau hu </li>
-    <li>mai hu </li>
-    <li>Don </li>
-</ul>
+const name = "prashant sagar";
+export default name;
 
-}
-export default List;
+
+
+// by default  you don't need to give the name of the file to export.  you just need 
+// to return the variable name, rest react is smart. 
