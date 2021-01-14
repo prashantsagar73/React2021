@@ -1,5 +1,9 @@
 const name = "prashant sagar";
+const work = "developer";
+
+
 export default name;
+export {work};
 
 
 
