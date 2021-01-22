@@ -14,7 +14,7 @@ ReactDOM.render(
     <>
     <h1 className="heading">Top Netflix series</h1>
    
-   {Sdata.map(function ncard(val) {
+   {Sdata.map((val)=> {
       return(
       <Card
    imgsrc={val.imgsrc}
@@ -28,3 +28,6 @@ ReactDOM.render(
     </>, document.getElementById("root"));
 
 
+// const fname=(a,b)=> a+b;
+// this is fat Arrow (=>) Function 
+// insted of function we fat arrow function 
