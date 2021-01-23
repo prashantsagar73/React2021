@@ -41,5 +41,12 @@ const Sdata= [
         title:" A Netflix original series",
         link: "https://www.netflix.com/in/",
     },
+    {    
+        id: 7,
+        sname: "DARK",
+        imgsrc:"https://source.unsplash.com/300x200/?series,dark",
+        title:" A Netflix original series",
+        link: "https://www.netflix.com/in/",
+    },
 ];
 export default Sdata;
