@@ -1,15 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Card from "./card";
-import Sdata from "./Sdata";
-import Netflix from "./Netflix";
+import Slot from "./Slot";
 
 // function ncard(val) {
 // return(
 // }
 ReactDOM.render(
- <Netflix/>
+ <Slot/>
 , document.getElementById("root"));
 // const fname=(a,b)=> a+b;
 // this is fat Arrow (=>) Function 
