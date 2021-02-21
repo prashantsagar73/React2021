@@ -19,7 +19,7 @@ const Events=()=>{
 
         <>
         <div style={{backgroundColor: bg}}>
-            <button onClick={bgchange} onDoubleClick={back}>{name}</button>
+            <button onMouseEnter={bgchange} onMouseLeave={back}>{name}</button>
         </div>
         </>
     );
