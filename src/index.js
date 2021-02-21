@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Hooks from "./Hooks";
-import Hooks1 from "./Hooks1";
+import Dclocl from "./Dclocl";
+import Events from "./Events";
 // function ncard(val) {
 // return(
 // }
 ReactDOM.render(
- <Hooks1/>
+ <Events/>
 , document.getElementById("root"));
 // const fname=(a,b)=> a+b;
 // this is fat Arrow (=>) Function 
