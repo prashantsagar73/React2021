@@ -4,17 +4,17 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: #190952;
+  background-color: #d1b410;
 }
 
 h1{
-  /* padding: 100px 0; */
+  /* padding: 10px; */
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   text-transform: uppercase;
-  /* font-size: 43px; */
+  font-size: 53px;
   /* letter-spacing: 10px; */
-  font-weight: 500;
+  /* font-weight: 500; */
   color: #ffffff;
   background: transparent;
   background-color: #9277f2;
@@ -23,6 +23,9 @@ h1{
   /* background-color: rgb(0, 0, 0); */
   /* font-size: 1.srem; */
   margin-bottom: 10px;
+  width: 100%;
+  /* margin-top: 200px; */
+  border-radius: 15px;
 }
 /* .cards{
   width: auto;
@@ -78,14 +81,14 @@ background-color: #fff;
 }
 .Center_div{
   width: 30%;
-  height: 80vh;
+  height: 40vh;
   background-color: #f6f6f6;
   box-shadow: 5px spx 25px -5px #000000;
   border-radius: 15px;
 margin-left: 35%;
-margin-top: 5%;
+margin-top: 10%;
 }
-input{
+/* input{
     text-align: center;
     height: 30px;
     top: 10px; 
@@ -96,33 +99,44 @@ input{
     width: 60%;
     border-bottom: 2px solid #9277f2;
     outline: none;
-}
-.cardtitle{
+} */
+/* .cardtitle{
   margin-top: 5px;
   margin-bottom: 10px;
   font-family: 'Courier New', Courier, monospace;
   background-color: #fff;
   text-transform: capitalize;
-}
+} */
 button{
   min-height: 40px;
-  width: 40px;
-  border-radius: 50px;
+  /* width: 40px; */
+  border-radius: 5px;
   border-color: transparent;
 color: #f6f6f6;
-background-color: rgb(189, 153, 218);
+background-color: rgb(136, 49, 207);
+color: #f6f6f6;
 font-size: 40px;
 border: none;
 outline: none;
-margin-left: 10px;
+margin-top: 30px;
+padding: 0 35px;
 box-shadow: 5px 5px 15px -5px #000000;;
 /* outline: none; */
 }
 
-button:hover {
-  background-color: aqua;
+.btn_div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+
 }
-ol{
+
+button:hover {
+  background-color: rgb(88, 179, 85);
+}
+
+/* ol{
   margin-top: 30px;
 }
 ol li{
@@ -164,4 +178,4 @@ ol li{
   flex-direction: row;
   justify-content: left;
   align-items: center;
-}
+} */
