@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import AddIcon from '@material-ui/icons/Add';
+import DeleteIcon from '@material-ui/icons/Delete';
 
 const Counter=()=>{
     const [num, setnum] = useState(0);
@@ -25,8 +27,8 @@ const Counter=()=>{
         <div className="Center_div">
         <h1>{num}</h1>
         <div className="btn_div">
-            <button onClick={incNum}>+</button>
-            <button onClick={decNum}>-</button>
+            <button onClick={incNum}><AddIcon/></button>
+            <button onClick={decNum}><DeleteIcon/></button>
             </div>
         </div>
         </div>
